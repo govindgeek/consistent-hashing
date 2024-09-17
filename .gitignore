@@ -15,6 +15,36 @@ Thumbs.db
 *.log
 *.tmp
 
+target/
+output
+
+*/.iml
+*/.jar
+*/.class
+**/.idea/
+*/.gz
+*/.tar
+*.versionsBackup
+*.classpath
+**/dependency-reduced-pom.xml
+**/src/main/resources/unravel.properties
+
+**/dlib/
+**/unravel_h2/
+**/node_modules/
+**/bower_components/
+
+hive-hook/emr/*.log
+client/bower_components
+dist
+.sync
+.DS_Store
+*.log
+python-workbench.tgz
+.project
+.settings
+.directory
+
 # Maven specific files
 .mvn/
 !mvn/wrapper/maven-wrapper.jar
